@@ -1,1 +1,9 @@
 #!/bin/bash
+
+echo $"Memory"
+free -mth
+echo $"Cores"
+nproc
+echo $"Diskusage"
+df -h
+
